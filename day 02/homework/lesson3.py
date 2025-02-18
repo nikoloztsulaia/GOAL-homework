@@ -41,3 +41,11 @@ answer = 12.35
 float = 2.5
 
 print ("city")
+print ("country")
+print ("name")
+print ("age")
+print ("integer")
+print ("meters")
+Print ("price")
+print ("answer")
+print ("float")

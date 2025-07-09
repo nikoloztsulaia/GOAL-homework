@@ -21,14 +21,14 @@ print(letters[2:5])
 
 words = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']
 
-print(words[-2:])
+print(words[4:6])
 
 
 # colors = ['red', 'green', 'blue', 'yellow', 'purple']
 # დაპრინტე სია შუიდან დაწყებული ბოლომდე (სადღაც 'blue'-დან ბოლომდე) slicing-ით.
 colors = ['red', 'green', 'blue', 'yellow', 'purple']
 
-print(colors[2:])
+print(colors[2:5])
 
 
 # text = "programming"

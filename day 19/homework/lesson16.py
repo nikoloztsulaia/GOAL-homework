@@ -3,9 +3,9 @@
 
 numbers = [10, 20, 30, 40, 50, 60, 70]
 
-first_three = numbers[0:3]
+print (numbers[0:3])
 
-print(first_three)
+
 
 
 

@@ -1,0 +1,49 @@
+<!--სკოლაში იქნება პატარა გასეირნება. შექმენი ფორმა განაცხადისთვის.
+
+უნდა ჰქონდეს:
+
+სახელი და გვარი
+
+რომელ კლასში ხარ?
+
+გინდა წასვლა? (radio – კი / არა)
+
+გინდა წამოიღო საჭმელი? (checkbox)
+
+მშობლის ტელეფონის ნომერი
+
+ღილაკი: „დადასტურება“  -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>გასეირნების განაცხადი</title>
+</head>
+<body>
+
+  <h2>გასეირნების განაცხადი</h2>
+
+  <form>
+    <label for="fullname">სახელი და გვარი:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="grade">რომელ კლასში ხარ?:</label><br>
+    <input type="text" id="grade" name="grade" required><br><br>
+
+    <p>გინდა წასვლა?</p>
+    <input type="radio" id="go_yes" name="go" value="კი" required>
+    <label for="go_yes">კი</label><br>
+    <input type="radio" id="go_no" name="go" value="არა">
+    <label for="go_no">არა</label><br><br>
+
+    <input type="checkbox" id="food" name="food">
+    <label for="food">გინდა წამოიღო საჭმელი?</label><br><br>
+
+    <label for="parent_phone">მშობლის ტელეფონის ნომერი:</label><br>
+    <input type="tel" id="parent_phone" name="parent_phone" required><br><br>
+
+    <button type="submit">დადასტურება</button>
+  </form>
+
+</body>
+</html>
